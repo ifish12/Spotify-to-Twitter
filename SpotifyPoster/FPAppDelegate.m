@@ -10,7 +10,7 @@
 #import "Spotify.h"
 //  (:3[___])...sleepy...
 @implementation FPAppDelegate
-
+// (∩'ω'∩)
 @synthesize window = _window;
 // (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧*:･ﾟ✧
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
