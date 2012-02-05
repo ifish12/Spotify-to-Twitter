@@ -1,7 +1,7 @@
 Spotify to Twitter
 ---
 
-This application simply copies the track name and other song info and pastes them into Twitter.app.
+This application simply copies the track name and other song info  from Spotify and pastes them into Twitter for Mac.
 
 License
 ---
