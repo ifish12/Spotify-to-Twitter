@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F196C1D914DE481600014A1D /* SpotifyPoster.png in Resources */ = {isa = PBXBuildFile; fileRef = F196C1D814DE481600014A1D /* SpotifyPoster.png */; };
-		F196C1DC14DE485D00014A1D /* SpotifyPoster.png in Resources */ = {isa = PBXBuildFile; fileRef = F196C1DB14DE485D00014A1D /* SpotifyPoster.png */; };
 		F1DE691914DDFCAB001D43D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE691814DDFCAB001D43D8 /* Cocoa.framework */; };
 		F1DE692314DDFCAB001D43D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DE692114DDFCAB001D43D8 /* InfoPlist.strings */; };
 		F1DE692514DDFCAB001D43D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE692414DDFCAB001D43D8 /* main.m */; };
@@ -20,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F196C1D814DE481600014A1D /* SpotifyPoster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotifyPoster.png; sourceTree = "<group>"; };
 		F196C1DB14DE485D00014A1D /* SpotifyPoster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotifyPoster.png; sourceTree = "<group>"; };
 		F1DE691414DDFCAB001D43D8 /* SpotifyPoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyPoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DE691814DDFCAB001D43D8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -111,7 +108,6 @@
 				F1DE692014DDFCAB001D43D8 /* SpotifyPoster-Info.plist */,
 				F1DE692114DDFCAB001D43D8 /* InfoPlist.strings */,
 				F1DE692414DDFCAB001D43D8 /* main.m */,
-				F196C1D814DE481600014A1D /* SpotifyPoster.png */,
 				F1DE692614DDFCAB001D43D8 /* SpotifyPoster-Prefix.pch */,
 				F1DE692714DDFCAB001D43D8 /* Credits.rtf */,
 			);
@@ -172,8 +168,6 @@
 				F1DE692314DDFCAB001D43D8 /* InfoPlist.strings in Resources */,
 				F1DE692914DDFCAB001D43D8 /* Credits.rtf in Resources */,
 				F1DE692F14DDFCAB001D43D8 /* MainMenu.xib in Resources */,
-				F196C1D914DE481600014A1D /* SpotifyPoster.png in Resources */,
-				F196C1DC14DE485D00014A1D /* SpotifyPoster.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
