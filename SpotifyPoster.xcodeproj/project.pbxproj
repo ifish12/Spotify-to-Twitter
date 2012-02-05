@@ -13,6 +13,8 @@
 		F1DE692914DDFCAB001D43D8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F1DE692714DDFCAB001D43D8 /* Credits.rtf */; };
 		F1DE692C14DDFCAB001D43D8 /* FPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE692B14DDFCAB001D43D8 /* FPAppDelegate.m */; };
 		F1DE692F14DDFCAB001D43D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DE692D14DDFCAB001D43D8 /* MainMenu.xib */; };
+		F1DE693714DE00FC001D43D8 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE693614DE00FC001D43D8 /* ScriptingBridge.framework */; };
+		F1DE693914DE0490001D43D8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE693814DE0490001D43D8 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		F1DE691B14DDFCAB001D43D8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F1DE691C14DDFCAB001D43D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F1DE691D14DDFCAB001D43D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F1DE692014DDFCAB001D43D8 /* SpotifyPoster-Info.plist */ = {isa = PBXFileReference; path = "SpotifyPoster-Info.plist"; sourceTree = "<group>"; };
+		F1DE692014DDFCAB001D43D8 /* SpotifyPoster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpotifyPoster-Info.plist"; sourceTree = "<group>"; };
 		F1DE692214DDFCAB001D43D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1DE692414DDFCAB001D43D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1DE692614DDFCAB001D43D8 /* SpotifyPoster-Prefix.pch */ = {isa = PBXFileReference; path = "SpotifyPoster-Prefix.pch"; sourceTree = "<group>"; };
+		F1DE692614DDFCAB001D43D8 /* SpotifyPoster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyPoster-Prefix.pch"; sourceTree = "<group>"; };
 		F1DE692814DDFCAB001D43D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F1DE692A14DDFCAB001D43D8 /* FPAppDelegate.h */ = {isa = PBXFileReference; path = FPAppDelegate.h; sourceTree = "<group>"; };
+		F1DE692A14DDFCAB001D43D8 /* FPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPAppDelegate.h; sourceTree = "<group>"; };
 		F1DE692B14DDFCAB001D43D8 /* FPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAppDelegate.m; sourceTree = "<group>"; };
 		F1DE692E14DDFCAB001D43D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F1DE693514DDFCF5001D43D8 /* Spotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spotify.h; sourceTree = "<group>"; };
+		F1DE693614DE00FC001D43D8 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		F1DE693814DE0490001D43D8 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DE693914DE0490001D43D8 /* Carbon.framework in Frameworks */,
+				F1DE693714DE00FC001D43D8 /* ScriptingBridge.framework in Frameworks */,
 				F1DE691914DDFCAB001D43D8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +70,8 @@
 		F1DE691714DDFCAB001D43D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1DE693814DE0490001D43D8 /* Carbon.framework */,
+				F1DE693614DE00FC001D43D8 /* ScriptingBridge.framework */,
 				F1DE691814DDFCAB001D43D8 /* Cocoa.framework */,
 				F1DE691A14DDFCAB001D43D8 /* Other Frameworks */,
 			);
@@ -84,6 +93,7 @@
 			children = (
 				F1DE692A14DDFCAB001D43D8 /* FPAppDelegate.h */,
 				F1DE692B14DDFCAB001D43D8 /* FPAppDelegate.m */,
+				F1DE693514DDFCF5001D43D8 /* Spotify.h */,
 				F1DE692D14DDFCAB001D43D8 /* MainMenu.xib */,
 				F1DE691F14DDFCAB001D43D8 /* Supporting Files */,
 			);
