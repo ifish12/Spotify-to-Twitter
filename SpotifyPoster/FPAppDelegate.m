@@ -22,9 +22,11 @@
     SpotifyApplication *app = [SBApplication applicationWithBundleIdentifier:@"com.spotify.client"];
     if (app) {
         SpotifyTrack *track = [app currentTrack];
+        NSArray *urlSegments = [track.spotifyUrl componentsSeparatedByString:@":"];
+        
         NSString *urlString = [NSString stringWithFormat:@"Now Playing: %@ - %@ - %@ - %@ on #Spotify",
-                               track.name ? track.name : @"", track.artist, track.album, track.spotifyUrl];
-        NSString *encodedTrackName = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
+                               track.name ? track.name : @"", track.artist, track.album,
+                               [NSString stringWithFormat:@"http://open.spotify.com/track/%@", [urlSegments objectAtIndex:2]]];        NSString *encodedTrackName = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
                                                                                          (__bridge CFStringRef)urlString,
                                                                                          NULL,
                                                                                          CFSTR("!*'();:@&=+$,/?%#[]"),
