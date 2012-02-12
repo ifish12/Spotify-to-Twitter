@@ -23,10 +23,10 @@
     if (app) {
         SpotifyTrack *track = [app currentTrack];
         NSArray *urlSegments = [track.spotifyUrl componentsSeparatedByString:@":"];
-        
+        // Spotify made this part of getting the HTTP URL a challenge. I love challenges!
         NSString *urlString = [NSString stringWithFormat:@"Now Playing: %@ - %@ - %@ - %@ on #Spotify",
                                track.name ? track.name : @"", track.artist, track.album,
-                               [NSString stringWithFormat:@"http://open.spotify.com/track/%@", [urlSegments objectAtIndex:2]]];        NSString *encodedTrackName = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
+                               [NSString stringWithFormat:@"http://open.spotify.com/track/%@", [urlSegments objectAtIndex:2]]];      NSString *encodedTrackName = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
                                                                                          (__bridge CFStringRef)urlString,
                                                                                          NULL,
                                                                                          CFSTR("!*'();:@&=+$,/?%#[]"),
