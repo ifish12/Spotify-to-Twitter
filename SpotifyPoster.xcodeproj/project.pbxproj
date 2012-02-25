@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1A7971214F89F1500902649 /* TwitifyIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A7971114F89F1500902649 /* TwitifyIcon2.png */; };
+		F1A7971514F89F1F00902649 /* TwitifyIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A7971414F89F1F00902649 /* TwitifyIcon2.png */; };
 		F1DE691914DDFCAB001D43D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE691814DDFCAB001D43D8 /* Cocoa.framework */; };
 		F1DE692314DDFCAB001D43D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DE692114DDFCAB001D43D8 /* InfoPlist.strings */; };
 		F1DE692514DDFCAB001D43D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE692414DDFCAB001D43D8 /* main.m */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1A7971114F89F1500902649 /* TwitifyIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitifyIcon2.png; sourceTree = "<group>"; };
+		F1A7971414F89F1F00902649 /* TwitifyIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitifyIcon2.png; sourceTree = "<group>"; };
 		F1DE691414DDFCAB001D43D8 /* SpotifyPoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyPoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DE691814DDFCAB001D43D8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F1DE691B14DDFCAB001D43D8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,7 @@
 		F1DE690914DDFCAB001D43D8 = {
 			isa = PBXGroup;
 			children = (
+				F1A7971414F89F1F00902649 /* TwitifyIcon2.png */,
 				F1DE691E14DDFCAB001D43D8 /* SpotifyPoster */,
 				F1DE691714DDFCAB001D43D8 /* Frameworks */,
 				F1DE691514DDFCAB001D43D8 /* Products */,
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				F1DE692014DDFCAB001D43D8 /* SpotifyPoster-Info.plist */,
+				F1A7971114F89F1500902649 /* TwitifyIcon2.png */,
 				F1DE692114DDFCAB001D43D8 /* InfoPlist.strings */,
 				F1DE692414DDFCAB001D43D8 /* main.m */,
 				F1DE692614DDFCAB001D43D8 /* SpotifyPoster-Prefix.pch */,
@@ -166,6 +172,8 @@
 				F1DE692314DDFCAB001D43D8 /* InfoPlist.strings in Resources */,
 				F1DE692914DDFCAB001D43D8 /* Credits.rtf in Resources */,
 				F1DE692F14DDFCAB001D43D8 /* MainMenu.xib in Resources */,
+				F1A7971214F89F1500902649 /* TwitifyIcon2.png in Resources */,
+				F1A7971514F89F1F00902649 /* TwitifyIcon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
