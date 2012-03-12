@@ -1294,7 +1294,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {227, 131}}</string>
+				<string key="NSWindowRect">{{335, 390}, {174, 65}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">SpotifyPoster</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -1307,10 +1307,9 @@
 						<object class="NSButton" id="220255100">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{78, 48}, {71, 32}}</string>
+							<string key="NSFrame">{{48, 14}, {71, 32}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:687</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="279343516">
@@ -1333,7 +1332,7 @@
 							</object>
 						</object>
 					</array>
-					<string key="NSFrameSize">{227, 131}</string>
+					<string key="NSFrameSize">{174, 65}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="220255100"/>

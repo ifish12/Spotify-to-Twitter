@@ -8,16 +8,15 @@
 
 #import "FPAppDelegate.h"
 #import "Spotify.h"
-//  (:3[___])...sleepy...
+
 @implementation FPAppDelegate
-// (∩'ω'∩)
+
 @synthesize window = _window;
 // (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧*:･ﾟ✧
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
 }
-// ・゜・(ノД`)・゜・。
 - (IBAction)pasteFromSpotifyToTwitter:(id)sender {
     SpotifyApplication *app = [SBApplication applicationWithBundleIdentifier:@"com.spotify.client"];
     if (app) {
@@ -39,5 +38,4 @@
         NSLog(@"empty");
     }
 }
-//  ε=ε=ε=ε=ε=ε=┌(;￣◇￣)┘
 @end
