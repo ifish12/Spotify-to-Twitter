@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F1A7971214F89F1500902649 /* TwitifyIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A7971114F89F1500902649 /* TwitifyIcon2.png */; };
-		F1B5150314F89FDC000A98CA /* SpotifyPoster.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B5150214F89FDC000A98CA /* SpotifyPoster.png */; };
 		F1DE691914DDFCAB001D43D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE691814DDFCAB001D43D8 /* Cocoa.framework */; };
 		F1DE692314DDFCAB001D43D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DE692114DDFCAB001D43D8 /* InfoPlist.strings */; };
 		F1DE692514DDFCAB001D43D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE692414DDFCAB001D43D8 /* main.m */; };
@@ -17,6 +16,7 @@
 		F1DE692F14DDFCAB001D43D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DE692D14DDFCAB001D43D8 /* MainMenu.xib */; };
 		F1DE693714DE00FC001D43D8 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE693614DE00FC001D43D8 /* ScriptingBridge.framework */; };
 		F1DE693914DE0490001D43D8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE693814DE0490001D43D8 /* Carbon.framework */; };
+		F1EBC7711519608200EBC6C4 /* SpotifyPoster.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B5150214F89FDC000A98CA /* SpotifyPoster.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,7 +173,7 @@
 				F1DE692914DDFCAB001D43D8 /* Credits.rtf in Resources */,
 				F1DE692F14DDFCAB001D43D8 /* MainMenu.xib in Resources */,
 				F1A7971214F89F1500902649 /* TwitifyIcon2.png in Resources */,
-				F1B5150314F89FDC000A98CA /* SpotifyPoster.png in Resources */,
+				F1EBC7711519608200EBC6C4 /* SpotifyPoster.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
