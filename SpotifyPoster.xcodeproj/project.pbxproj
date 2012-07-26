@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C6BD82915C11DDB00A175CF /* SpotifyPoster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SpotifyPoster.entitlements; sourceTree = "<group>"; };
 		F1A7971114F89F1500902649 /* TwitifyIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitifyIcon2.png; sourceTree = "<group>"; };
 		F1B5150214F89FDC000A98CA /* SpotifyPoster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotifyPoster.png; sourceTree = "<group>"; };
 		F1DE691414DDFCAB001D43D8 /* SpotifyPoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyPoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +96,7 @@
 		F1DE691E14DDFCAB001D43D8 /* SpotifyPoster */ = {
 			isa = PBXGroup;
 			children = (
+				6C6BD82915C11DDB00A175CF /* SpotifyPoster.entitlements */,
 				F1DE692A14DDFCAB001D43D8 /* FPAppDelegate.h */,
 				F1DE692B14DDFCAB001D43D8 /* FPAppDelegate.m */,
 				F1DE693514DDFCF5001D43D8 /* Spotify.h */,
@@ -144,7 +146,7 @@
 		F1DE690B14DDFCAB001D43D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "iFish Productions LLC";
 			};
 			buildConfigurationList = F1DE690E14DDFCAB001D43D8 /* Build configuration list for PBXProject "SpotifyPoster" */;
@@ -240,7 +242,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -261,7 +263,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -269,6 +271,8 @@
 		F1DE693314DDFCAB001D43D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpotifyPoster/SpotifyPoster-Prefix.pch";
 				INFOPLIST_FILE = "SpotifyPoster/SpotifyPoster-Info.plist";
@@ -280,6 +284,8 @@
 		F1DE693414DDFCAB001D43D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpotifyPoster/SpotifyPoster-Prefix.pch";
 				INFOPLIST_FILE = "SpotifyPoster/SpotifyPoster-Info.plist";
