@@ -1,8 +1,8 @@
 //
 //  FPAppDelegate.m
-//  SpotifyPoster
+//  SpotifyPoster 2
 //
-//  Created by Geoff Shapiro on 12-02-04.
+//  Created by Geoff Shapiro on 12-06-14.
 //  Copyright (c) 2012 iFish Productions LLC. All rights reserved.
 //
 
@@ -12,7 +12,7 @@
 @implementation FPAppDelegate
 
 @synthesize window = _window;
-// (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧*:･ﾟ✧
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
@@ -22,15 +22,15 @@
     if (app) {
         SpotifyTrack *track = [app currentTrack];
         NSArray *urlSegments = [track.spotifyUrl componentsSeparatedByString:@":"];
-        // Spotify made this part of getting the HTTP URL a challenge. I love challenges!
-        NSString *urlString = [NSString stringWithFormat:@"Now Playing:♫ %@ - %@ - %@ - %@ on #Spotify",
+        
+        NSString *urlString = [NSString stringWithFormat:@"Now Playing: %@ - %@ - %@ - %@ on #Spotify",
                                track.name ? track.name : @"", track.artist, track.album,
                                [NSString stringWithFormat:@"http://open.spotify.com/track/%@", [urlSegments objectAtIndex:2]]];      NSString *encodedTrackName = (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
                                                                                          (__bridge CFStringRef)urlString,
                                                                                          NULL,
                                                                                          CFSTR("!*'();:@&=+$,/?%#[]"),
                                                                                          kCFStringEncodingUTF8);
-        NSString *fullUrlString = [NSString stringWithFormat:@"Twitter://post?message=%@", encodedTrackName];
+        NSString *fullUrlString = [NSString stringWithFormat:@"tweetbot:///post?text=%@", encodedTrackName];
         NSURL *finalUrl = [NSURL URLWithString:fullUrlString];
         [[NSWorkspace sharedWorkspace] openURL:finalUrl];
 //        NSLog(@"%@", [app currentTrack].name);
